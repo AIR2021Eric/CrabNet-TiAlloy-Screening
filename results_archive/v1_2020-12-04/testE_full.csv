@@ -1,0 +1,5 @@
+benchmark,value
+This work: Ti-alloy Young's modulus (known alloys),8.8 % MAE
+This work: pure-element bulk modulus (expt refs),6.1 % MAE
+"Segal et al. arXiv:2502.05970, Table 1, CrabNet col.: Matbench steels yield strength OOD",740 +/- 49 MPa
+"Segal et al. arXiv:2502.05970, Table 1, CrabNet col.: MP bulk modulus OOD",57.8 +/- 4.2 GPa

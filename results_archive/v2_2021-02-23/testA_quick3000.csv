@@ -1,0 +1,3 @@
+protocol,n_samples,wang_paper_mae,leaderboard_mae,oof_mae,bias,pearson_r,light_element_subset_oof_mae,ratio_to_leaderboard,verdict
+reproducible KFold splits (matbench pkg absent; NOT official),10987,0.068,0.0758,0.17479181023938703,0.016116116773051914,0.8650024239673054,0.1927304180177308,2.30596055724785,FLAGGED (checkpoint vintage / protocol; see report)
+reproducible KFold splits (matbench pkg absent; NOT official),10987,0.092,0.1014,0.18714811548386986,0.015462964234261483,0.8545267652926212,0.20163226494613798,1.8456421645352057,FLAGGED (checkpoint vintage / protocol; see report)

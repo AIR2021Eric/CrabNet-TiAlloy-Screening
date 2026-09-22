@@ -1,0 +1,13 @@
+vintage,check,value,note
+v1_2020-12-04,B: pure-el K err %,6.1,
+v1_2020-12-04,B: pure-el G err %,20.9,
+v2_2021-02-23,B: pure-el K err %,6.1,
+v2_2021-02-23,B: pure-el G err %,20.9,
+v1_2020-12-04,G: alloy E MAE %,4.4,
+v2_2021-02-23,G: alloy E MAE %,4.4,
+v1_2020-12-04,H: hull mean eV/atom,0.063,in 0.05-0.10 band
+v2_2021-02-23,H: hull mean eV/atom,0.031,in 0.05-0.10 band
+v1_2020-12-04,A: matbench_log_kvrh subset MAE,0.1748,leaderboard 0.0758
+v2_2021-02-23,A: matbench_log_kvrh subset MAE,0.1748,leaderboard 0.0758
+v1_2020-12-04,A: matbench_log_gvrh subset MAE,0.1845,leaderboard 0.1014
+v2_2021-02-23,A: matbench_log_gvrh subset MAE,0.1845,leaderboard 0.1014

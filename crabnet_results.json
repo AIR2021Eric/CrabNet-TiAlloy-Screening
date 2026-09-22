@@ -1,0 +1,160 @@
+{
+    "input_formula": "Ti90Al6V4",
+    "results": [
+        {
+            "Property": "Bulk Modulus (AFLOW)",
+            "Value": "113.9983",
+            "Unit": "GPa"
+        },
+        {
+            "Property": "Bulk Modulus (AFLOW)",
+            "Value": "112.5777",
+            "Unit": "GPa"
+        },
+        {
+            "Property": "Bulk Modulus (K_VRH)",
+            "Value": "94.7252",
+            "Unit": "GPa"
+        },
+        {
+            "Property": "CritExam__Ed",
+            "Value": "0.0250",
+            "Unit": ""
+        },
+        {
+            "Property": "CritExam__Ef",
+            "Value": "-0.5775",
+            "Unit": ""
+        },
+        {
+            "Property": "Energy Above Hull (Stability)",
+            "Value": "0.0614",
+            "Unit": "eV/atom"
+        },
+        {
+            "Property": "OQMD_Bandgap",
+            "Value": "0.0034",
+            "Unit": "eV"
+        },
+        {
+            "Property": "OQMD_Energy_per_atom",
+            "Value": "-6.5920",
+            "Unit": "eV/atom"
+        },
+        {
+            "Property": "OQMD_Formation_Enthalpy",
+            "Value": "-0.0733",
+            "Unit": "eV/atom"
+        },
+        {
+            "Property": "Shear Modulus (AFLOW)",
+            "Value": "55.5243",
+            "Unit": "GPa"
+        },
+        {
+            "Property": "Shear Modulus (AFLOW)",
+            "Value": "56.8151",
+            "Unit": "GPa"
+        },
+        {
+            "Property": "Shear Modulus (G_VRH)",
+            "Value": "44.0739",
+            "Unit": "GPa"
+        },
+        {
+            "Property": "Volume per Atom",
+            "Value": "17.9323",
+            "Unit": "\u00c5\u00b3/atom"
+        },
+        {
+            "Property": "Yield Strength (Steels Dataset)",
+            "Value": "1419.9338",
+            "Unit": "MPa"
+        },
+        {
+            "Property": "aflow__Egap",
+            "Value": "0.3689",
+            "Unit": "eV"
+        },
+        {
+            "Property": "aflow__ael_debye_temperature",
+            "Value": "350.7671",
+            "Unit": "K"
+        },
+        {
+            "Property": "aflow__agl_thermal_conductivity_300K",
+            "Value": "5.3221",
+            "Unit": "W/m-K"
+        },
+        {
+            "Property": "aflow__agl_thermal_expansion_300K",
+            "Value": "0.0000",
+            "Unit": "1/K"
+        },
+        {
+            "Property": "aflow__energy_atom",
+            "Value": "-5.1046",
+            "Unit": ""
+        },
+        {
+            "Property": "castelli",
+            "Value": "1.3024",
+            "Unit": ""
+        },
+        {
+            "Property": "dielectric",
+            "Value": "2.9578",
+            "Unit": ""
+        },
+        {
+            "Property": "expt_gap",
+            "Value": "0.3214",
+            "Unit": "eV"
+        },
+        {
+            "Property": "expt_is_metal",
+            "Value": "0.8133",
+            "Unit": "Probability"
+        },
+        {
+            "Property": "glass",
+            "Value": "0.4043",
+            "Unit": ""
+        },
+        {
+            "Property": "jdft2d",
+            "Value": "97.2311",
+            "Unit": ""
+        },
+        {
+            "Property": "mp_e_form",
+            "Value": "-0.4666",
+            "Unit": "eV/atom"
+        },
+        {
+            "Property": "mp_elastic_anisotropy",
+            "Value": "0.5305",
+            "Unit": ""
+        },
+        {
+            "Property": "mp_gap",
+            "Value": "0.3386",
+            "Unit": "eV"
+        },
+        {
+            "Property": "mp_is_metal",
+            "Value": "0.8062",
+            "Unit": "Probability"
+        },
+        {
+            "Property": "mp_mu_b",
+            "Value": "1.3324",
+            "Unit": ""
+        },
+        {
+            "Property": "phonons",
+            "Value": "547.9318",
+            "Unit": ""
+        }
+    ]
+}

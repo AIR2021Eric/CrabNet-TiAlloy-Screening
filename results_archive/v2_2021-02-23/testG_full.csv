@@ -1,0 +1,5 @@
+alloy,E_ref,E_ref_lo,E_ref_hi,E_CrabNet,E_nn_err_pct,E_nn_in_ref_range,E_proxy,E_proxy_err_pct,E_proxy_in_ref_range,rho_ref,rho_proxy,rho_err_pct
+Ti-6Al-4V,113.8,107.0,122.0,127.7,12.2,False,110.8,2.6,True,4.43,4.38,1.1
+Ti-5553,110.0,,,115.0,4.5,,118.4,7.6,,4.65,4.6,1.2
+Ti-6246,114.0,70.0,114.0,118.6,4.1,False,112.7,1.1,True,4.65,4.57,1.7
+Ti-10-2-3,109.6,,,125.2,14.2,,115.6,5.5,,4.65,4.58,1.6

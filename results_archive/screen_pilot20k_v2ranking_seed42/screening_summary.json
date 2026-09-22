@@ -1,0 +1,24 @@
+{
+  "generated": 50000,
+  "unique": 50000,
+  "stage1_pass": 12504,
+  "stage1_survivors": 12504,
+  "stage2_final_pass": 12442,
+  "rank_eligible": 11107,
+  "exported_top": 100,
+  "al_min_atfrac": 0.0,
+  "weights_vintage": "2021-02-23 mat2vec (bsz_auto), Zenodo 10.5281/zenodo.4633866; 74/83 heads byte-identical to the 2020-12-04 set (all elasticity/AFLOW); 9 MP/OQMD single-model heads retrained in the 2021 run (incl. mp_e_hull, mp_bulk_modulus)",
+  "guardrails": {
+    "hull_max_eV": 0.1,
+    "consensus_pct": 20.0,
+    "consensus_rank_pct": 15.0,
+    "pugh_min": 1.75,
+    "rho_max": 4.8,
+    "k_spread_flag_GPa": 20.0,
+    "k_spread_definition": "3-head cluster (AFLOW, MP, proxy); 4-head range reported only",
+    "crfe_max_atfrac": 0.06,
+    "min_l1_diversity": 0.05,
+    "al_min_atfrac": 0.0
+  },
+  "runtime_s": 113.4
+}

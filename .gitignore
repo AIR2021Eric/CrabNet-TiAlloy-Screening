@@ -1,0 +1,18 @@
+﻿# Virtual environments (Never push dependencies)
+venv/
+.venv/
+
+# Pretrained weights (Too large for GitHub; document Zenodo link in README instead)
+*.pth
+models/
+
+# Python cache and IDE files
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

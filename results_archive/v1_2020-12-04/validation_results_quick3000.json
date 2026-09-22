@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "date": "2026-09-16",
+    "torch": "2.14.0+cpu",
+    "python": "3.10.11",
+    "sklearn": "1.7.2",
+    "scipy": "1.15.3",
+    "mode": "quick3000",
+    "folds": 5,
+    "consensus_threshold_pct": 20.0,
+    "hull_threshold_eV": 0.1
+  },
+  "testA": {
+    "matbench_log_kvrh": {
+      "n_samples": 3000,
+      "published_mae": 0.068,
+      "ensemble_mae": 0.17480914075170223,
+      "fold_maes": [
+        0.16926337404245664,
+        0.17496179593336364,
+        0.18098368682911645,
+        0.17921310758228015,
+        0.17387741922219954
+      ],
+      "bias": 0.02121041732548008,
+      "pearson_r": 0.8816649127218776,
+      "light_element_subset_mae": 0.19220732616715192,
+      "ratio_to_published": 2.570722658113268,
+      "verdict": "FLAGGED (2020-12-04 checkpoint vintage; see report)"
+    },
+    "matbench_log_gvrh": {
+      "n_samples": 3000,
+      "published_mae": 0.092,
+      "ensemble_mae": 0.18453830565611967,
+      "fold_maes": [
+        0.19038687128544227,
+        0.2002390801905824,
+        0.1813548968692174,
+        0.18876893724529142,
+        0.17363529515837
+      ],
+      "bias": 0.019474768468805935,
+      "pearson_r": 0.8878809632792278,
+      "light_element_subset_mae": 0.19627139889850687,
+      "ratio_to_published": 2.0058511484360833,
+      "verdict": "FLAGGED (2020-12-04 checkpoint vintage; see report)"
+    }
+  },
+  "testB": {
+    "table": [
+      {
+        "element": "Ti",
+        "K_ref": 110,
+        "K_pred": 109.0,
+        "K_err_pct": 0.9,
+        "G_ref": 42,
+        "G_pred": 39.3,
+        "G_err_pct": 6.4
+      },
+      {
+        "element": "Al",
+        "K_ref": 76,
+        "K_pred": 77.3,
+        "K_err_pct": 1.7,
+        "G_ref": 26,
+        "G_pred": 33.2,
+        "G_err_pct": 27.6
+      },
+      {
+        "element": "V",
+        "K_ref": 160,
+        "K_pred": 159.4,
+        "K_err_pct": 0.4,
+        "G_ref": 47,
+        "G_pred": 68.8,
+        "G_err_pct": 46.4
+      },
+      {
+        "element": "Mo",
+        "K_ref": 230,
+        "K_pred": 214.9,
+        "K_err_pct": 6.6,
+        "G_ref": 126,
+        "G_pred": 98.6,
+        "G_err_pct": 21.8
+      },
+      {
+        "element": "Zr",
+        "K_ref": 91,
+        "K_pred": 95.1,
+        "K_err_pct": 4.5,
+        "G_ref": 33,
+        "G_pred": 34.9,
+        "G_err_pct": 5.7
+      },
+      {
+        "element": "Cr",
+        "K_ref": 160,
+        "K_pred": 181.7,
+        "K_err_pct": 13.6,
+        "G_ref": 115,
+        "G_pred": 80.6,
+        "G_err_pct": 29.9
+      },
+      {
+        "element": "Fe",
+        "K_ref": 170,
+        "K_pred": 150.8,
+        "K_err_pct": 11.3,
+        "G_ref": 82,
+        "G_pred": 71.1,
+        "G_err_pct": 13.3
+      }
+    ],
+    "mean_K_err_pct": 5.571428571428571,
+    "mean_G_err_pct": 21.58571428571429,
+    "verdict": "K reliable (5.6% mean err); G weak for pure solutes (21.6%) - scoped use"
+  },
+  "testC": {
+    "table": [
+      {
+        "formula": "Ti90Al6V4",
+        "K_pred_GPa": 99.4411
+      },
+      {
+        "formula": "V4Ti90Al6",
+        "K_pred_GPa": 99.4411
+      },
+      {
+        "formula": "Al6V4Ti90",
+        "K_pred_GPa": 99.4411
+      },
+      {
+        "formula": "Ti0.9Al0.06V0.04",
+        "K_pred_GPa": 99.4411
+      }
+    ],
+    "max_diff": 0.0,
+    "verdict": "PASS (parser normalization + permutation-invariant set attention)"
+  },
+  "testD": {
+    "table": [
+      {
+        "composition": "Ti100Al0",
+        "K_ensemble_GPa": 108.97,
+        "K_ROM_GPa": 110.0
+      },
+      {
+        "composition": "Ti98Al2",
+        "K_ensemble_GPa": 98.13,
+        "K_ROM_GPa": 109.17
+      },
+      {
+        "composition": "Ti96Al4",
+        "K_ensemble_GPa": 96.98,
+        "K_ROM_GPa": 108.35
+      },
+      {
+        "composition": "Ti94Al6",
+        "K_ensemble_GPa": 98.67,
+        "K_ROM_GPa": 107.54
+      },
+      {
+        "composition": "Ti92Al8",
+        "K_ensemble_GPa": 98.72,
+        "K_ROM_GPa": 106.74
+      },
+      {
+        "composition": "Ti90Al10",
+        "K_ensemble_GPa": 101.57,
+        "K_ROM_GPa": 105.94
+      },
+      {
+        "composition": "Ti88Al12",
+        "K_ensemble_GPa": 102.1,
+        "K_ROM_GPa": 105.16
+      },
+      {
+        "composition": "Ti86Al14",
+        "K_ensemble_GPa": 103.89,
+        "K_ROM_GPa": 104.38
+      },
+      {
+        "composition": "Ti84Al16",
+        "K_ensemble_GPa": 100.79,
+        "K_ROM_GPa": 103.61
+      },
+      {
+        "composition": "Ti82Al18",
+        "K_ensemble_GPa": 100.85,
+        "K_ROM_GPa": 102.84
+      },
+      {
+        "composition": "Ti80Al20",
+        "K_ensemble_GPa": 96.94,
+        "K_ROM_GPa": 102.08
+      },
+      {
+        "composition": "Ti78Al22",
+        "K_ensemble_GPa": 96.55,
+        "K_ROM_GPa": 101.33
+      },
+      {
+        "composition": "Ti76Al24",
+        "K_ensemble_GPa": 95.42,
+        "K_ROM_GPa": 100.59
+      }
+    ],
+    "max_step_GPa": 10.84157805037185,
+    "mean_step_GPa": 2.2912517196880295,
+    "rom_mean_step_GPa": 0.7843916349809893,
+    "coarse_trend_matches_ROM": true,
+    "verdict": "PASS-with-caveat: coarse trend correct, fine-scale roughness (10.8 GPa max step) >> physical slope (0.8 GPa/step); use ensemble + coarse bins, never gradient optimization"
+  },
+  "testG": {
+    "table": [
+      {
+        "alloy": "Ti-6Al-4V",
+        "E_ref": 113,
+        "E_CrabNet": 127.7,
+        "E_nn_err_pct": 13.0,
+        "E_ROM": 107.0,
+        "E_rom_err_pct": 5.3,
+        "rho_ref": 4.43,
+        "rho_ROM": 4.26,
+        "rho_err_pct": 3.9
+      },
+      {
+        "alloy": "Ti-5553",
+        "E_ref": 110,
+        "E_CrabNet": 115.0,
+        "E_nn_err_pct": 4.5,
+        "E_ROM": 114.6,
+        "E_rom_err_pct": 4.2,
+        "rho_ref": 4.65,
+        "rho_ROM": 4.41,
+        "rho_err_pct": 5.2
+      },
+      {
+        "alloy": "Ti-6246",
+        "E_ref": 118,
+        "E_CrabNet": 118.6,
+        "E_nn_err_pct": 0.5,
+        "E_ROM": 109.0,
+        "E_rom_err_pct": 7.6,
+        "rho_ref": 4.54,
+        "rho_ROM": 4.31,
+        "rho_err_pct": 5.0
+      },
+      {
+        "alloy": "Ti-10-2-3",
+        "E_ref": 110,
+        "E_CrabNet": 125.2,
+        "E_nn_err_pct": 13.8,
+        "E_ROM": 111.7,
+        "E_rom_err_pct": 1.6,
+        "rho_ref": 4.65,
+        "rho_ROM": 4.49,
+        "rho_err_pct": 3.5
+      }
+    ],
+    "nn_better_count": 1,
+    "n_alloys": 4,
+    "verdict": "ROM matches/beats CrabNet for E => use consensus; publishable negative result"
+  },
+  "testH": {
+    "table": [
+      {
+        "alloy": "Ti-6Al-4V",
+        "formula": "Ti1.88020975Al0.22237427V0.07852144",
+        "E_ROM": 107.0,
+        "E_CrabNet": 127.7,
+        "E_diff_pct": 19.4,
+        "rho_ROM": 4.26,
+        "hull_eV": 0.071,
+        "consensus_pass": true
+      },
+      {
+        "alloy": "Ti-5553",
+        "formula": "Ti1.71307999Al0.18531189V0.0981518Cr0.05769663Mo0.05211591",
+        "E_ROM": 114.6,
+        "E_CrabNet": 115.0,
+        "E_diff_pct": 0.3,
+        "rho_ROM": 4.41,
+        "hull_eV": 0.057,
+        "consensus_pass": true
+      },
+      {
+        "alloy": "Ti-6246",
+        "formula": "Zr0.04384811Ti1.71307999Al0.22237427Sn0.01684778Mo0.06253909",
+        "E_ROM": 109.0,
+        "E_CrabNet": 118.6,
+        "E_diff_pct": 8.8,
+        "rho_ROM": 4.31,
+        "hull_eV": 0.06,
+        "consensus_pass": true
+      },
+      {
+        "alloy": "Ti-10-2-3",
+        "formula": "Ti1.77575365Al0.11118714V0.1963036Fe0.03581341",
+        "E_ROM": 111.7,
+        "E_CrabNet": 125.2,
+        "E_diff_pct": 12.0,
+        "rho_ROM": 4.49,
+        "hull_eV": 0.064,
+        "consensus_pass": true
+      }
+    ],
+    "pass_rate": 1.0,
+    "verdict": "4/4 known alloys pass consensus (threshold 20.0% + hull < 0.1 eV/atom)"
+  },
+  "testF": {
+    "table": [
+      {
+        "alloy": "Ti-6Al-4V",
+        "K_matbench_mean": 97.2,
+        "K_matbench_fold_std": 1.9,
+        "K_AFLOW": 113.2,
+        "K_MP": 112.7,
+        "cross_model_spread": 15.9
+      },
+      {
+        "alloy": "Ti-5553",
+        "K_matbench_mean": 87.8,
+        "K_matbench_fold_std": 1.5,
+        "K_AFLOW": 110.6,
+        "K_MP": 109.6,
+        "cross_model_spread": 22.8
+      },
+      {
+        "alloy": "Ti-6246",
+        "K_matbench_mean": 88.3,
+        "K_matbench_fold_std": 1.5,
+        "K_AFLOW": 111.6,
+        "K_MP": 109.9,
+        "cross_model_spread": 23.4
+      },
+      {
+        "alloy": "Ti-10-2-3",
+        "K_matbench_mean": 91.0,
+        "K_matbench_fold_std": 2.6,
+        "K_AFLOW": 112.3,
+        "K_MP": 109.9,
+        "cross_model_spread": 21.4
+      }
+    ],
+    "mean_spread_GPa": 20.875,
+    "verdict": "Report fold std + cross-model spread as uncertainty; disagreement > 20 GPa => flag candidate"
+  },
+  "testE": {
+    "table": [
+      [
+        "This work: Ti-alloy Young's modulus (known alloys)",
+        "8.0 % MAE"
+      ],
+      [
+        "This work: pure-element bulk modulus",
+        "5.6 % MAE"
+      ],
+      [
+        "Segal et al. arXiv:2502.05970: CrabNet OOD steels yield strength",
+        "740 +/- 49 MPa"
+      ],
+      [
+        "Segal et al. arXiv:2502.05970: CrabNet OOD MP bulk modulus",
+        "45.8 +/- 3.9 GPa"
+      ]
+    ],
+    "verdict": "Context only: in-domain Ti errors are far below published OOD baselines; supports scoped use"
+  }
+}

@@ -1,0 +1,5 @@
+benchmark,value
+This work: Ti-alloy Young's modulus (known alloys),8.0 % MAE
+This work: pure-element bulk modulus,5.6 % MAE
+Segal et al. arXiv:2502.05970: CrabNet OOD steels yield strength,740 +/- 49 MPa
+Segal et al. arXiv:2502.05970: CrabNet OOD MP bulk modulus,45.8 +/- 3.9 GPa

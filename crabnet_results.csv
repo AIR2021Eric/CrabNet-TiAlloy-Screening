@@ -1,0 +1,32 @@
+Property,Value,Unit
+Bulk Modulus (AFLOW),113.9983,GPa
+Bulk Modulus (AFLOW),112.5777,GPa
+Bulk Modulus (K_VRH),94.7252,GPa
+CritExam__Ed,0.0250,
+CritExam__Ef,-0.5775,
+Energy Above Hull (Stability),0.0614,eV/atom
+OQMD_Bandgap,0.0034,eV
+OQMD_Energy_per_atom,-6.5920,eV/atom
+OQMD_Formation_Enthalpy,-0.0733,eV/atom
+Shear Modulus (AFLOW),55.5243,GPa
+Shear Modulus (AFLOW),56.8151,GPa
+Shear Modulus (G_VRH),44.0739,GPa
+Volume per Atom,17.9323,Å³/atom
+Yield Strength (Steels Dataset),1419.9338,MPa
+aflow__Egap,0.3689,eV
+aflow__ael_debye_temperature,350.7671,K
+aflow__agl_thermal_conductivity_300K,5.3221,W/m-K
+aflow__agl_thermal_expansion_300K,0.0000,1/K
+aflow__energy_atom,-5.1046,
+castelli,1.3024,
+dielectric,2.9578,
+expt_gap,0.3214,eV
+expt_is_metal,0.8133,Probability
+glass,0.4043,
+jdft2d,97.2311,
+mp_e_form,-0.4666,eV/atom
+mp_elastic_anisotropy,0.5305,
+mp_gap,0.3386,eV
+mp_is_metal,0.8062,Probability
+mp_mu_b,1.3324,
+phonons,547.9318,

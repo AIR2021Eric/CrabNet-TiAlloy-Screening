@@ -1,0 +1,5 @@
+alloy,K_matbench_mean,K_matbench_fold_std,K_AFLOW,K_MP,cross_model_spread
+Ti-6Al-4V,97.2,1.9,113.2,114.4,17.2
+Ti-5553,87.8,1.5,110.6,114.2,26.4
+Ti-6246,88.3,1.5,111.6,113.6,25.3
+Ti-10-2-3,91.0,2.6,112.3,115.4,24.4

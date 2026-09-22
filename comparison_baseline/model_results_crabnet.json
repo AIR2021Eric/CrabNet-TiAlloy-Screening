@@ -1,0 +1,39 @@
+{
+  "model": "crabnet",
+  "weights_vintage": "2021-02-23 mat2vec (bsz_auto), Zenodo 10.5281/zenodo.4633866; 74/83 heads byte-identical to the 2020-12-04 set (all elasticity/AFLOW); 9 MP/OQMD single-model heads retrained in the 2021 run (incl. mp_e_hull, mp_bulk_modulus)",
+  "env": {
+    "python": "3.10.11",
+    "torch": "2.14.0+cpu"
+  },
+  "testA_oof_mae": {
+    "kvrh": 0.17479181023938703,
+    "gvrh": 0.18714811548386986,
+    "kvrh_r": 0.8650024239673054,
+    "gvrh_r": 0.8545267652926212,
+    "comparator_leaderboard": {
+      "kvrh": 0.0758,
+      "gvrh": 0.1014
+    }
+  },
+  "testB_err_pct": {
+    "K": 6.1499999999999995,
+    "G": 20.95
+  },
+  "testC_max_diff": 0.0,
+  "testD_max_step_GPa": 10.84157805037185,
+  "testG_E_mae_pct": 8.75,
+  "testH_controls_pass": "4/4",
+  "testF_mean_spread_GPa": 23.324999999999996,
+  "throughput": {
+    "best_chunk": 15000,
+    "samples_per_s": 244.3,
+    "linearity_r2": 0.9979
+  },
+  "screening_exhaustive": {
+    "n": 39480,
+    "pass_all": 0.426,
+    "rank_clean": 0.238,
+    "top1": "Ti85V15 @ 26.096 spec_stiff_cons"
+  },
+  "notes": "hull gate uses CrabNet-trained mp_e_hull heads (dual vintage); K policy = 4-head range"
+}
